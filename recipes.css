@@ -1,0 +1,68 @@
+@import url('https://fonts.cdnfonts.com/css/lucida-unicode-calligraphy');
+@import url('https://fonts.cdnfonts.com/css/agency-fb');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    background-image: url("background-pattern.png");
+    background-color: #f7f0e8;
+    background-size: 50%;
+}
+
+h1 {font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Agency FB', sans-serif;             
+    color: #ca4143;
+}
+
+h2 {
+    font-family: 'Lucida Unicode Calligraphy', sans-serif;                      
+    color: #ca4143;
+}
+
+h3 { 
+    font-family: 'Sarabun';
+    color: #333;
+}
+
+p {
+    font-family: 'Sarabun';
+}
+
+.slider {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    min-width: 300px;
+    max-width: 300px;
+    flex: 0 0 auto;
+    transition: transform 0.3s ease;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h2 {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 20px 10px 0 10px;
+}
+
+.card p {
+    font-size: 1.2em;
+    color: #333;
+    padding: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
